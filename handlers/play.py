@@ -109,7 +109,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "KafkazMusicAsistan"
+        user.first_name = "KarabakhMusicAsistan"
     usar = user
     wew = usar.id
     try:
@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://images.app.goo.gl/NGSPzanu8UhefmjbA"
+        thumb_name = "https://images.app.goo.gl/zQnUr68SVHY485mZ6"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
@@ -207,7 +207,7 @@ async def play(_, message: Message):
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://images.app.goo.gl/NGSPzanu8UhefmjbA"
+            thumb_name = "https://images.app.goo.gl/zQnUr68SVHY485mZ6"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
